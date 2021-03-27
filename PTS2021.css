@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+	body {
+		background-color:black;
+	}
+	
+	header {
+	display: block;
+	background-color: darkred;
+	margin: 0;
+	padding: 0;
+	border: 20;
+	position: fixed;
+	width: 100%;	
+	z-index: 3;
+		}
+	
+	.logo {
+		display: table;
+		align-content: center;
+		margin: 0 auto;
+		background-color: darkred;
+	}
+	
+	.RaytheonLogo {
+		display: inherit;
+		}
+	
+
+	.pandemicdeclaration {
+		width: 100%;
+		height: 60%;
+		video-width: var(--portrait-max-width);
+		object-fit: cover;
+		display: inline-block;
+		transition-delay: 0s;
+		transition-duration: 1s;
+		margin-top: 150px;
+		padding-top: 0 auto;
+		border-style: groove;
+		border-color: antiquewhite;
+		transition-duration: 10s;
+		transition: opacity var(--transition-duration) ease-out var(--transition-delay);
+			}
+	
+.Memories {
+		width: 100%;
+		height: 100%;
+		video-width: var(--portrait-max-width);
+		object-fit: cover;
+		display: inline-block;
+		transition-delay: 0s;
+		transition-duration: 1s;
+		margin: 0 auto;
+		border-style: groove;
+		border-color: antiquewhite;
+		transition-duration: 10s;
+		transition: opacity var(--transition-duration) ease-out var(--transition-delay);
+			}
+	
+
+.intro {
+display: inline-block;
+align-items: center;
+	text-align: center;
+width: 100%;
+heigth: 0 auto;
+margin: 0 auto;
+padding: 0 auto;
+border: 0 auto;
+align-content: center;
+}
+
+	.textOMS, .Datos, .OpenQuestion {
+		width: calc(100% - 80px);
+		max-width: 60%;
+		font-size: 1.75rem;
+		pointer-events: initial;
+		font-family: var(--font-chelt);
+		color: rgb(230 230 230);
+		webkit-font-smoothing: antialiased;
+		line-height: 1.375;
+        text-shadow: 0 2px 2px rgb(0 0 0 / 40%), 0 0 2px rgb(0 0 0 / 40%);
+		margin: auto;
+    	padding: auto;
+    	border: auto;
+    	display: block;
+    	margin-top: 50px;
+		align-content: center;
+		text-align: center;
+    	justify-content: center;
+    	position: relative;
+    	z-index: 10;
+    	overflow: hidden;
+    	margin-bottom: 20vh;
+		z-index: -1;
+	}
+	
+
+
+.Jennifer {
+	overflow: auto;
+	margin: 20px;
+}
+	.Jenn_Pic {
+	display: block;
+	float: left;
+	margin-right: 20px;
+max-width: 100%;	
+}
+
+.Felipe {
+	overflow: auto;
+	margin: 20px;
+}
+	.Felipe.Pic {
+	display: block;
+	float: right;
+	max-width: 100%;
+	}
+
+.Axel {
+	overflow: auto;
+	margin: 20px;
+	
+}
+	.Axel.Pic {
+	display: block;
+	float: left;
+	max-width: 100%;
+	}
+
+
+.Gustavo {
+	overflow: auto;
+	margin: 20px;
+}
+	.Gustavo.Pic {
+	display: block;
+	float: right;
+	max-width: 100%;
+	}
+
+.Diana {
+	overflow: auto;
+	margin: 20px;
+}
+	.Diana.Pic {
+	display: block;
+	float: left;
+	max-width: 100%;
+	}
+
+.Braulio {
+	overflow: auto;
+	margin: 20px;
+}
+	.Braulio.Pic {
+	display: block;
+	float: left;
+	max-width: 100%;
+	}
+
+.Pregunta {
+	color:rgb(230 230 230);
+	display: block;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 30px;
+		
+}
+
+.Respuesta {
+	color: rgb(230 230 230);
+	display: block;
+	text-align: center;
+}
+	
+	footer {
+	display: inline-block;
+	width: calc(100% - 80px)
+	}
+
+.Social {
+	display: inline-block;
+	margin: 0 auto;
+	align-content: center;
+}
+
+.listsocial {
+text-align: center;
+margin: auto;
+}
+
+.SocialShare {
+	display: inline;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	
+}
+
+.SocialIcon, .whats {
+display: inline;
+max-height: 18px;
+max-width: 18px;
+}
+
+footer {
+display: inline-block;
+text-align: center;
+width: 100%;
+heigth: 0 auto;
+margin: 0 auto;
+padding: 0 auto;
+border: 0 auto;
+align-content: center;
+}
+
+.footertext {
+display: inline;
+color: rgb(230 230 230);
+font-size: 10px;
+heigth: 0 auto;
+margin-left: 0 auto;
+padding: 0 auto;
+border: 0 auto;
+content-align: center;
+}
+
+.Titles {
+background-color: darkred;
+text-align: center;
+display: inline-block;
+font-weight: bolder;
+width: 100%;
+color: rgb(230 230 230);
+font-size: 40px;
+}
+
+.timer {
+background-color: darkred;
+text-align: center;
+display: inline-block;
+font-weight: bolder;
+width: 100%;
+color: rgb(230 230 230);
+font-size: 40px;
+margin: 20px;
+	
+}
+
+.countup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: white;
+  margin: 0;
+  color: darkred;
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  margin-bottom: 10px;
+  background: darkred;
+  color: white;
+  border-color: white;
+}
+
+.twitter-share-button {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	
+}
